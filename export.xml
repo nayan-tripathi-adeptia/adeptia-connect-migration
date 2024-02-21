@@ -15,6 +15,8 @@
 	<Folders comment="List of all folders to be exported"/>
 	<Files comment="List of all files to be exported"/>
 <Activities activityRefId="001" comment="List of all activity types that need to be exported">
-	<activity type="JSON Schema"/>
+	<activity includeDependency="no" type="Process Flow">
+            <name>export_pf</name>
+        </activity>
     </Activities>
 </Configuration>
