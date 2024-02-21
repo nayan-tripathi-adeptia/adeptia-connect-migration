@@ -2,6 +2,8 @@
 	<UserInfo roleId="1" userId="127000000001107055536473900001"/>
 	<TargetZipLoc comment="Location of zip file containing exported objects">/shared/migration/export/export-$TIMESTAMP$.zip</TargetZipLoc>
 	<ExportType comment="Specify A to export all activities or specific activities. Specify PR to export projects.">A</ExportType>
+	<ActivityRefId comment="Specify the activityRefId whose activties need to be exported">
+		001</ActivityRefId>
 	<ProjectRefId comment="Specify the projectRefId whose projects need to be exported">
 		001</ProjectRefId>
 	<ModifiedDate comment="Specify the date(YYYY-MM-DD hh:mm:ss) along with comparison operator"/>
@@ -12,4 +14,10 @@
 	<SolutionTables tableId="001"/>
 	<Folders comment="List of all folders to be exported"/>
 	<Files comment="List of all files to be exported"/>
+<Activities activityRefId="001" comment="List of all activity types that need to be exported">
+	<activity includeDependency="yes" type="Process Flow">
+            <name>vp_xml_text_processflow</name>
+            <name>vp_json2xml_default_processflow</name>
+        </activity>
+    </Activities>
 </Configuration>
