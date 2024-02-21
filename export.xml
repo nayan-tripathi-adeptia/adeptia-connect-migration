@@ -14,10 +14,4 @@
 	<SolutionTables tableId="001"/>
 	<Folders comment="List of all folders to be exported"/>
 	<Files comment="List of all files to be exported"/>
-<Activities activityRefId="001" comment="List of all activity types that need to be exported">
-	<activity type="User">
-            <name>deleteuser@yopmail.com</name>
-            <name>userchangepwd@yopmail.com</name>
-        </activity>
-    </Activities>
 </Configuration>
