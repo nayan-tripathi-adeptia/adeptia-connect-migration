@@ -15,9 +15,61 @@
 	<Folders comment="List of all folders to be exported"/>
 	<Files comment="List of all files to be exported"/>
 <Activities activityRefId="001" comment="List of all activity types that need to be exported">
-	<activity includeDependency="yes" type="Process Flow">
-            <name>vp_xml_text_processflow</name>
-            <name>vp_json2xml_default_processflow</name>
+	<activity includeTemplate="yes" type="Transaction">
+            <name>ob_self_ack Transaction</name>
+            <name>ob_self_x12_lan Transaction</name>
+            <name>am_x12_bundle_EDI Inbound Transaction_</name>
+            <name>am_x12_997_EDI Inbound Transaction</name>
+            <name>am_recon_EDI Outbound Transaction</name>
+            <name>am_edifact_bundle_EDI Outbound Transaction</name>
+            <name>am_bundle_edifact_EDI Inbound Transaction_</name>
+            <name>am_edifact_self_outbound Transaction</name>
+            <name>am_self_ib_edifact_lan Transaction</name>
+            <name>am_bundle_hippa_ob_EDI Outbound Transaction</name>
+            <name>am_hippa_bundle_EDI Inbound Transaction</name>
+            <name>am_self_hippa_ob Transaction</name>
+            <name>am_self_hippa_ib_Transaction</name>
+            <name>am_bundle_x12_EDI Outbound Transaction_</name>
+            <name>am_EDI Inbound Transaction_</name>
+            <name>am_self_hippa_ack Transaction</name>
+            <name>am_hippa_reconsile_EDI Outbound Transaction</name>
+            <name>am_999EDI Inbound Transaction</name>
+            <name>SV_EDI_BO_X12_Lan2lan_CBR_PP_Temp Transaction</name>
+            <name>am_contrl_edf_bundle_EDI Outbound Transaction</name>
+            <name>am_edf_ack_EDI Inbound Transaction</name>
+            <name>am_edf_bundle)control_reconsil_EDI Outbound Transaction</name>
+            <name>am_bundle_edf_contrl_EDI Inbound Transaction</name>
+            <name>am_self_ib_hippa_ack Transaction</name>
+            <name>am_ob_hippa_response Transaction</name>
+        </activity>
+        <activity includeTemplate="no" type="Transaction">
+            <name>am_x12_bundle_EDI Inbound Transaction_</name>
+            <name>ob_self_x12_lan Transaction</name>
+            <name>ob_self_ack Transaction</name>
+            <name>am_self_x12_inbound_lan Transaction</name>
+            <name>am_x12_997_EDI Inbound Transaction</name>
+            <name>am_recon_EDI Outbound Transaction</name>
+            <name>am_edifact_bundle_EDI Outbound Transaction</name>
+            <name>am_bundle_edifact_EDI Inbound Transaction_</name>
+            <name>am_edifact_self_outbound Transaction</name>
+            <name>am_self_ib_edifact_lan Transaction</name>
+            <name>am_bundle_hippa_ob_EDI Outbound Transaction</name>
+            <name>am_hippa_bundle_EDI Inbound Transaction</name>
+            <name>am_self_hippa_ob Transaction</name>
+            <name>am_self_hippa_ib_Transaction</name>
+            <name>am_bundle_x12_EDI Outbound Transaction_</name>
+            <name>am_EDI Inbound Transaction_</name>
+            <name>am_self_hippa_ack Transaction</name>
+            <name>am_hippa_reconsile_EDI Outbound Transaction</name>
+            <name>am_999EDI Inbound Transaction</name>
+            <name>SV_EDI_BO_EDIFACT_Lan2lan_CBR_PP_Txn</name>
+            <name>SV_EDI_BO_X12_Lan2lan_CBR_PP_Temp Transaction</name>
+            <name>am_contrl_edf_bundle_EDI Outbound Transaction</name>
+            <name>am_edf_ack_EDI Inbound Transaction</name>
+            <name>am_edf_bundle)control_reconsil_EDI Outbound Transaction</name>
+            <name>am_bundle_edf_contrl_EDI Inbound Transaction</name>
+            <name>am_self_ib_hippa_ack Transaction</name>
+            <name>am_ob_hippa_response Transaction</name>
         </activity>
     </Activities>
 </Configuration>
