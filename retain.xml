@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- It is recommended that you create a copy of this file and then edit that instead of editing the original one. -->
+<retain>
+         <service comment="if a new user need not to be created at the target end after import then this tag must be giv
+en. Set the value of retainNewActivities attribute for this tag to true or remove this attribute, if no new user needs t
+o be created at the target environment, false otherwise" table="au_users" retainNewActivities="true"/>
+         <service comment="if a new group need not to be created at the target end after import then this tag must be gi
+ven " table="au_groups" />
+
+<!--    <service comment="service name whose some field is to be retained at the target end after import. Set the value
+of retainNewActivities attribute for a service to true or remove this attribute, if no new activities for a service are
+to be deployed at the target environment, false otherwise" table="au_filesource" retainNewActivities="true" >
+                <field comment="field name which is to be retained at the target end after import" fieldName="au_filepat
+h" />
+        </service> -->
+</retain>
