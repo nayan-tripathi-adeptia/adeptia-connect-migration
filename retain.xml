@@ -3,7 +3,7 @@
 <retain>
          <service comment="if a new user need not to be created at the target end after import then this tag must be giv
 en. Set the value of retainNewActivities attribute for this tag to true or remove this attribute, if no new user needs t
-o be created at the target environment, false otherwise" table="au_users" retainNewActivities="true"/>
+o be created at the target environment, false otherwise" table="au_ftpsource" retainNewActivities="true"/>
          <service comment="if a new group need not to be created at the target end after import then this tag must be gi
 ven " table="au_groups" />
 
