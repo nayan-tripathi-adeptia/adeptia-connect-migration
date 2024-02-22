@@ -2,9 +2,9 @@
 <Configuration comment="Specifies the type of operation for which this file is meant" operation="import">
 	<SourceZipLoc comment="Location of source zip file">$SHARED_PATH$/migration/import/IMPORT_ZIP_FILENAME.zip</SourceZipLoc>
 	<RetainXmlLocation comment="Location of retain xml file"></RetainXmlLocation>
-	<OverrideUser comment="User Id or User name with which all objects will be deployed">IndigoUser:1210123820122451968</OverrideUser>
+	<OverrideUser comment="User Id or User name with which all objects will be deployed">nayan:1210123820122451968</OverrideUser>
 	<!-- In case OverrideModifiedByUser is not configured, OverrideUser will be used as OverrideModifiedByUser. -->
-	<OverrideModifiedByUser comment="User Id or User name which will be reflected in the modified by field of every activity after deployment">IndigoUser:1210123820122451968</OverrideModifiedByUser>
+	<OverrideModifiedByUser comment="User Id or User name which will be reflected in the modified by field of every activity after deployment">nayan:1210123820122451968</OverrideModifiedByUser>
 	<Solution >
 		<DatabaseType><![CDATA[]]></DatabaseType>
 		<Server><![CDATA[]]></Server>
