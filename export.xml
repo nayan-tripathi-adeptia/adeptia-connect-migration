@@ -1,5 +1,5 @@
 <Configuration comment="Specify the type of operation for which this file is meant." operation="export" product="connect">
-	<UserInfo roleId="1" userId="1210123820122451968"/>
+	<UserInfo roleId="2" userId="1210123820122451968"/>
 	<TargetZipLoc comment="Location of zip file containing exported objects">/shared/migration/export/export-$TIMESTAMP$.zip</TargetZipLoc>
 	<ExportType comment="Specify A to export all activities or specific activities. Specify PR to export projects.">A</ExportType>
 	<ActivityRefId comment="Specify the activityRefId whose activties need to be exported">
