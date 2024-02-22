@@ -4,7 +4,7 @@
 	<RetainXmlLocation comment="Location of retain xml file"></RetainXmlLocation>
 	<OverrideUser comment="User Id or User name with which all objects will be deployed">IndigoUser:127000000001107055536473900001</OverrideUser>
 	<!-- In case OverrideModifiedByUser is not configured, OverrideUser will be used as OverrideModifiedByUser. -->
-	<OverrideModifiedByUser comment="User Id or User name which will be reflected in the modified by field of every activity after deployment">IndigoUser:127000000001107055536473900001</OverrideModifiedByUser>
+	<OverrideModifiedByUser comment="User Id or User name which will be reflected in the modified by field of every activity after deployment">IndigoUser:1206493874042290176</OverrideModifiedByUser>
 	<Solution >
 		<DatabaseType><![CDATA[]]></DatabaseType>
 		<Server><![CDATA[]]></Server>
