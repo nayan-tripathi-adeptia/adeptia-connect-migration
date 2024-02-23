@@ -9,7 +9,7 @@
 		<DatabaseType>MySQL</DatabaseType>
 		<Server><adeptia-qa1-mysql.mysql.database.azure.com></Server>
 		<Port><3306></Port>
-		<DatabaseName>nayan_backend</DatabaseName>
+		<DatabaseName>nayan_back</DatabaseName>
 		<UserName>adeptia-qa</UserName>
 		<Password>qazwsx@123</Password>
 	</Solution>
