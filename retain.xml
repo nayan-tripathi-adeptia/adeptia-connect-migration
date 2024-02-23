@@ -9,7 +9,7 @@ ven " table="au_groups" />
 
 <!--    <service comment="service name whose some field is to be retained at the target end after import. Set the value
 of retainNewActivities attribute for a service to true or remove this attribute, if no new activities for a service are
-to be deployed at the target environment, false otherwise" table="au_ftpsource" retainNewActivities="false" retain="no" >
+to be deployed at the target environment, false otherwise" table="au_ftpsource" retainNewActivities="true" retain="no" >
                 <field comment="field name which is to be retained at the target end after import" fieldName="au_remoteFilePath" />
         </service> -->
 </retain>
