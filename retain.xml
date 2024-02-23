@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- It is recommended that you create a copy of this file and then edit that instead of editing the original one. -->
 <retain>
-<!--    <service comment="service name whose some field is to be retained at the target end after import. Set the value
-of retainNewActivities attribute for a service to true or remove this attribute, if no new activities for a service are
-to be deployed at the target environment, false otherwise" table="au_ftptarget" query = "au_id = '1210188548672204800' and au_entityName = 'ftp_target_Copy'" retainNewActivities="true" >
-                <field comment="field name which is to be retained at the target end after import" fieldName="au_remoteFilePath" />
-        </service> -->
+  <service retainNewActivities="false" table="au_ftptarget" query="au_id = '1210188548672204800' and au_entityName = 'ftp_target_Copy'">
+    <field fieldName="au_remoteFilePath" />
+  </service>
 </retain>
+
