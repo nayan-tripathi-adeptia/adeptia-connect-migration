@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <retain>
-  <service retainNewActivities="false" table="au_ftptarget" query="au_id = '1210188548672204800' and au_entityName = 'ftp_target_Copy'" retain = "no" >
+  <service retainNewActivities="false" table="au_ftptarget" query="au_id = '1210188548672204800' and au_entityName = 'ftp_target_Copy'" retain="no">
   </service>
 </retain>
+
 
