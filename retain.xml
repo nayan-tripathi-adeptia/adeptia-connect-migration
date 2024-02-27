@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <retain>
-  <service retainNewActivities="true" table="au_mappingtransformation" query="au_id = '1211955960785846272' and au_entityName = 'mapping'" retain="yes">
+  <service retainNewActivities="false" table="au_mappingtransformation" query="au_id = '1211955960785846272' and au_entityName = 'mapping'" retain="yes">
   </service>
 </retain>
 
