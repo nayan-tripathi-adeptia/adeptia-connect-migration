@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <retain>
-  <service retainNewActivities="true" table="au_ftpsource" query="au_id = '1210504063620161536' and au_entityName = 'ftp_source_2'" retain="yes">
+  <service retainNewActivities="false" table="au_ftpsource" query="au_id = '1210504063620161536' and au_entityName = 'ftp_source_2'" retain="yes">
   </service>
 </retain>
 
